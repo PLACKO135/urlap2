@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <form>
+        <fieldset>
+            <legend><b>Szállítási cím módosítása</b></legend><br>
+
+            <label for="Nev">Név*</label><br>
+            <input type="text" id="Nev">
+            
+            <label for="telefonszam">Telefonszám*</label>
+            <select name="szam">
+                <option value=”magyar”>+36</option>
+                <option value=”angol”>+44</option>
+                <option value=”nemet”>+49</option>
+            </select>
+            <input type="tel" id="telefonszam" name="telefonszam"><br><br>
+
+            <label for="iranyitoszam">Irányítószám*</label><br>
+            <input type="number" id="iranyitoszam" name="iranyitoszam">
+
+            <label for="varos">Város*</label>
+            <select id="varos" name="varos">
+                <option value="Debrecen">Debrecen</option>
+                <option value="Budapest">Budapest</option>
+            </select><br><br>
+
+            <label for="orszag">Ország*</label><br>
+            <select id="orszag" name="orszag">
+                <option value="Magyarorszag">Magyarország</option>
+                <option value="Anglia">Anglia</option>
+                <option value="Németország">Németország</option>
+            </select>
+                
+            <label for="cím">Cím*</label>
+            <input type="text" id="cím" name="cím"><br><br>
+
+            <input type="submit" id="submit" value="Mentés">
+
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
